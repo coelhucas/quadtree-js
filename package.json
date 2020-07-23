@@ -1,0 +1,21 @@
+{
+  "name": "quadt",
+  "version": "1.0.0",
+  "description": "Simple module containing a Quadtree implementation in the form of a JavaScript class.",
+  "main": "src/Quadtree.js",
+  "homepage": "https://github.com/coelhucas/quadtree-js",
+  "bugs": "https://github.com/coelhucas/quadtree-js/issues",
+  "files": ["src/Quadtree.js"],
+  "repository": {
+    "url": "https://github.com/coelhucas/quadtree-js",
+    "type": "git"
+  },
+  "author": "Lucas Coelho",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
