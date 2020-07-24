@@ -6,10 +6,16 @@ Simple class implementing a [Quadtree](https://en.wikipedia.org/wiki/Quadtree). 
 
 Usage
 ------
+You can install the package by using
+`yarn add quadt`
 
 All you need is the [Quadtree.js](./src/Quadtree.js) file
 ```js
-const { Quadtree, Rect } = require('./Quadtree.js');
+// If you have added the npm package
+const { Quadtree, Rect } = require('quadt');
+// Using the local file
+//const { Quadtree, Rect } = require('./Quadtree.js');
+
 // Creating a Quadtree with 640x480 dimensions
 const treeBounds = new Rect(0, 0, 640, 480);
 const tree = new Quadtree(treeBounds);
